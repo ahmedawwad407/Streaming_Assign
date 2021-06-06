@@ -7,13 +7,13 @@
     tools:context=".MainActivity3">
 
     <com.google.android.exoplayer2.ui.PlayerView
-        android:id="@+id/video_view"
+        android:id="@+id/video_view3"
         android:layout_width="420dp"
         android:layout_height="266dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+       />
 
 
     <Button
@@ -26,7 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/video_view" />
+        app:layout_constraintTop_toBottomOf="@+id/video_view3" />
 
     <Button
         android:id="@+id/goToActivity4"

@@ -19,7 +19,7 @@ import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 public class MainActivity2 extends AppCompatActivity {
     PlayerView playerView;
     SimpleExoPlayer player;
-    String videoURl = "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4";
+    String videoURl = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4";
 
     private Boolean playWhenReady = true;
     private int currentWindow = 0;
@@ -32,7 +32,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        playerView = findViewById(R.id.video_view);
+        playerView = findViewById(R.id.video_view2);
         btnVideo_2 = findViewById(R.id.Btn_Video2);
         goToActivity3 = findViewById(R.id.goToActivity3);
 

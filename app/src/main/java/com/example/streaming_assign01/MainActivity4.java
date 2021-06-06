@@ -32,7 +32,7 @@ public class MainActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
-        playerView = findViewById(R.id.video_view);
+        playerView = findViewById(R.id.video_view4);
 
         btnVideo_4 = findViewById(R.id.Btn_Video4);
 
